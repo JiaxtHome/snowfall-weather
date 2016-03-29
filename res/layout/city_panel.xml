@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/city_bg"
+    android:orientation="vertical"
+    android:paddingTop="10dip" >
+
+    <ImageView
+        android:id="@+id/cityBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/city_back" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/city_search"
+        android:completionThreshold="1"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="@string/city_hint"
+        android:textColor="@android:color/white"
+        android:popupBackground="@android:color/transparent"
+        android:singleLine="true"
+        android:dropDownVerticalOffset="15dp"
+        android:dropDownHorizontalOffset="10dp" />
+
+    <LinearLayout
+        android:id="@+id/hotCityContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/hot_city"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/divider" />
+
+        <com.xlgzs.weather.HotCitySelector
+            android:id="@+id/cityGird"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:horizontalSpacing="10dp"
+            android:numColumns="5"
+            android:verticalSpacing="8dp" />
+    </LinearLayout>
+
+</LinearLayout>

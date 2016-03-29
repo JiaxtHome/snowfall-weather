@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/bgCartoon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/bg_cartoon" />
+
+    <com.xlgzs.weather.ScrimView
+        android:id="@+id/scrim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.xlgzs.weather.TitlePanel
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <include
+        android:id="@+id/pageContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/title_height"
+        layout="@layout/page_container" />
+
+    <com.xlgzs.weather.CityPanel
+        android:id="@+id/cityMore"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/scence"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/scence" />
+
+</FrameLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="title_height">52dp</dimen>
+    <dimen name="weather_icon_width">117dp</dimen>
+    <dimen name="weather_icon_height">80dp</dimen>
+    <dimen name="weather_cartoon_width">300dp</dimen>
+    <dimen name="weather_cartoon_height">300dp</dimen>
+    <dimen name="weather_cartoon_top_margin">110dp</dimen>
+    <dimen name="week_grid_weather_icon_width">58dp</dimen>
+    <dimen name="week_grid_weather_icon_height">40dp</dimen>
+    <dimen name="mill_size">200dp</dimen>
+    <dimen name="point_margin_left">167dp</dimen>
+    <dimen name="point_margin_top">333dp</dimen>
+    <dimen name="diagram_div_max">7dp</dimen>
+    <dimen name="diagram_margin_verticle">17dp</dimen>
+    <dimen name="diagram_dot_radius">3dp</dimen>
+    <dimen name="diagram_text_size">13dp</dimen>
+    <dimen name="title_marker_margin">3dp</dimen>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">雪落天气</string>
+    <string name="city_hint">请输入你的所在地名称</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hot_city">热门城市</string>
+    <string name="add_city_fail">这个城市已经有了哦</string>
+
+</resources>

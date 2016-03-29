@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xlgzs.weather.WeekPanel xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:id="@+id/gridTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal" >
+
+        <com.xlgzs.weather.WeekGridTop
+            android:id="@+id/weekTop1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <com.xlgzs.weather.WeekGridTop
+            android:id="@+id/weekTop2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <com.xlgzs.weather.WeekGridTop
+            android:id="@+id/weekTop3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <com.xlgzs.weather.WeekGridTop
+            android:id="@+id/weekTop4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <com.xlgzs.weather.WeekGridTop
+            android:id="@+id/weekTop5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <com.xlgzs.weather.WeekGridTop
+            android:id="@+id/weekTop6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <com.xlgzs.weather.DiagramView
+        android:id="@+id/diagram"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <LinearLayout
+        android:id="@+id/gridBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal" >
+
+        <com.xlgzs.weather.WeekGridBottom
+            android:id="@+id/weekBottom1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <com.xlgzs.weather.WeekGridBottom
+            android:id="@+id/weekBottom2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <com.xlgzs.weather.WeekGridBottom
+            android:id="@+id/weekBottom3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <com.xlgzs.weather.WeekGridBottom
+            android:id="@+id/weekBottom4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <com.xlgzs.weather.WeekGridBottom
+            android:id="@+id/weekBottom5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <com.xlgzs.weather.WeekGridBottom
+            android:id="@+id/weekBottom6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</com.xlgzs.weather.WeekPanel>
